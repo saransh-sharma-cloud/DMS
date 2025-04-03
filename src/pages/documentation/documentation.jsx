@@ -1,5 +1,5 @@
 // material-ui
-import Grid from '@mui/material/Grid2';
+import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import { DataGrid } from '@mui/x-data-grid';
@@ -52,7 +52,7 @@ export default function Documentation() {
         <Typography variant="h5">Documentation</Typography>
       </Grid>
 
-      <Grid size={{ xs: 6 }}>
+      <Grid size={{ xs: 12 }}>
         <Paper sx={{ height: 400, width: '100%' }}>
           <DataGrid
             rows={rows}
@@ -72,7 +72,7 @@ export default function Documentation() {
               },
             }}
             pageSizeOptions={[5, 10]}
-            checkboxSelection
+            checkboxSelection={false}
             sx={{ border: 0 }}
           />
         </Paper>
