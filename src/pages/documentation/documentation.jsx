@@ -65,7 +65,7 @@ export default function Documentation() {
                     {
                       field: 'firstName', 
                       operator: 'contains',  
-                      value: '', 
+                      value: 's', 
                     },
                   ],
                 },
