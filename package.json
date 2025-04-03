@@ -1,12 +1,12 @@
 {
-  "name": "mantis-material-free-react",
+  "name": "infostride",
   "version": "1.4.1",
   "private": false,
-  "homepage": "https://mantisdashboard.io/free",
+  "homepage": "https://infostride.com",
   "author": {
-    "name": "CodedThemes",
-    "email": "codedthemes@gmail.com",
-    "url": "https://codedthemes.com/"
+    "name": "Infostride",
+    "email": "info@infostride.com",
+    "url": "https://infostride.com/"
   },
   "scripts": {
     "start": "vite",
